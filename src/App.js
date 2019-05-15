@@ -5,7 +5,12 @@ import "./styles/App.css";
 
 class App extends Component {
   render() {
-    return <CharacterListView />;
+    return (
+    <div>
+      <nav className='nav-bar'>STAR WARS</nav>
+    <CharacterListView />;
+    </div>
+    )
   }
 }
 
