@@ -1,4 +1,4 @@
-import { CHAR_FETCH, CHAR_SUCCESS, CHAR_FAILURE} from "../actions";
+import { CHAR_FETCH, CHAR_SUCCESS, CHAR_FAILURE } from "../actions";
 
 const initialState = {
   characters: [],
